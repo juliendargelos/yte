@@ -1,5 +1,5 @@
 export default defineEventHandler((event) => {
   return {
-    test: true
+    test: Date.now()
   }
 })
